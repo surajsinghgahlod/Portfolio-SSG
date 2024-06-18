@@ -26,6 +26,7 @@ html {
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  overflow-x: hidden;
 }
 
 /* Custom scrollbar */
@@ -630,6 +631,14 @@ input[type="number"]::-webkit-inner-spin-button {
   }
   .about {
     flex-direction: column-reverse;
+  }
+  .skill-main {
+    grid-template-columns: 1fr; 
+    grid-row-gap: 20px; 
+    grid-column-gap: 0; 
+  }
+  .skills-grid{
+    margin-left: 0;
   }
   .projects h2 {
     margin-bottom: 3rem;
