@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SSG Portfolio</title>
+
+  <!-- CUSTOM CSS LINK  -->
+   <link rel="stylesheet" href="./assets/css/style.css">
+
+   <!-- BOX ICON LINK  -->
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <!-- HEADER  -->
+   <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+   </header>
+
+   <!-- HOME SECTION  -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Suraj Singh</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>I'm passionate about creating responsive and user-friendly web applications that provide exceptional user experiences. With a strong foundation in JavaScript and front-end frameworks, I strive to deliver high-quality code and solutions that meet business goals.</p>
+        <div class="social-media">
+          <a href="mailto:surajsinggahlod09@gmail.com" target="_blank"><i class='bx bx-envelope' ></i></a>
+          <a href="#" ><i class='bx bxl-instagram' ></i></a>
+          <a href="https://www.linkedin.com/in/surajsinghgahlod/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+          <a href="https://github.com/surajsinghgahlod" target="_blank"><i class='bx bxl-github' ></i></a>
+        </div>
+        
+        <button><a href="./assets/doc/Suraj-CV24.pdf" download class="btn">Download CV</a></button>
+        <button><a href="mailto:surajsinggahlod09@gmail.com" class="btn btn-outline">Hire Me</a></button>
+      </div>
+
+      <div class="home-img">
+        <img src="./assets/images/home.png" alt="">
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION  -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./assets/images/about.png" alt="about me">
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>Passionate Frontend developer skilled in HTML, CSS, and ReactJS. With 2 years of experience in Front End Engineering, I thrive on transforming challenging design concepts into seamless, responsive interfaces. I've successfully tackled complex tasks, demonstrating an ability to innovate and deliver exceptional results. Proven track record in HTML, CSS, Bootstrap, and ReactJS, and a commitment to excellence.</p>
+        <button><a href="#" class="btn">Cover Letter</a></button>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION  -->
+    <section class="skills" id="skills">
+      <div class="main-text">
+        <h2 class="heading">My <span>Skill</span></h2>
+      </div>
+
+      <div class="skill-main">
+        <div class="technical-skills">
+          <h3>Tech Stack</h3>
+          <div class="skill-bar">
+            <div class="info">
+              <p>HTML</p>
+              <p>90%</p>
+            </div>
+            <div class="bar">
+              <span class="html"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>CSS</p>
+              <p>85%</p>
+            </div>
+            <div class="bar">
+              <span class="css"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>JavaScript</p>
+              <p>75%</p>
+            </div>
+            <div class="bar">
+              <span class="js"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>React</p>
+              <p>80%</p>
+            </div>
+            <div class="bar">
+              <span class="react"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>Next JS</p>
+              <p>70%</p>
+            </div>
+            <div class="bar">
+              <span class="next"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="professional-skills">
+          <h3>Professional Skills</h3>
+          <div class="skills-grid">
+            <ul>
+              <li class="pro-skill"><i class='bx bx-code-alt'></i> Frontend Web Development</li>
+              <li class="pro-skill"><i class='bx bx-mobile-alt'></i> Responsive Web Development</li>
+              <li class="pro-skill"><i class='bx bx-rocket'></i> Code Optimization</li>
+              <li class="pro-skill"><i class='bx bx-plug'></i> RESTful API Integration</li>
+              <li class="pro-skill"><i class='bx bx-globe'></i> Cross-Browser Compatibility</li>
+              <li class="pro-skill"><i class='bx bx-lock-alt'></i> Authentication and Authorization</li>
+              <li class="pro-skill"><i class='bx bx-git-branch'></i> Version Control Systems: Git, GitHub, Bitbucket</li>
+              <li class="pro-skill"><i class='bx bx-code-curly'></i> CSS Preprocessors and Frameworks: Bootstrap, Material UI, SASS/SCSS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION  -->
+    <section class="projects" id="projects">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="projects-container">
+        <div class="projects-box">
+          <img src="./assets/images/project-shoeStore.png" alt="project1">
+          <div class="projects-layer">
+            <h4>SHOES STORE</h4>
+            <p>A shoes store app created by using React and Material UI. Also implemented API integration in the project</p>
+            <div class="projects-links">
+              <a href="https://mui-shoes-store.vercel.app/" target="_blank">
+                <i class='bx bx-play-circle' ></i>
+              </a>
+              <a href="https://github.com/surajsinghgahlod/MUI-ShoesStore" target="_blank">
+                <i class='bx bx-link-external' ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-box">
+          <img src="./assets/images/project-chatApp.png" alt="project2">
+          <div class="projects-layer">
+            <h4>CHAT APP</h4>
+            <p>A chat app for chatting created with help of React and used Firefox for maintaing the database and authentication</p>
+            <div class="projects-links">
+              <a href="https://react-messenger-33a5e.web.app/" target="_blank">
+                <i class='bx bx-play-circle' ></i>
+              </a>
+              <a href="https://github.com/surajsinghgahlod/React-Chat-App" target="_blank">
+                <i class='bx bx-link-external' ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-box">
+          <img src="./assets/images/project-animeStore.png" alt="project3">
+          <div class="projects-layer">
+            <h4>Anime Store</h4>
+            <p>An Anime Store create with the help of React, fetched data for movies from the API and implemented into the UI</p>
+            <div class="projects-links">
+              <a href="https://animes-store.netlify.app/" target="_blank">
+                <i class='bx bx-play-circle' ></i>
+              </a>
+              <a href="https://github.com/surajsinghgahlod/React-Anime-Store" target="_blank">
+                <i class='bx bx-link-external' ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-box">
+          <img src="./assets/images/project-whetherApp.png" alt="project4">
+          <div class="projects-layer">
+            <h4>Whether App</h4>
+            <p>A fully functional whether app created by using React and used api to fetch live whether reports</p>
+            <div class="projects-links">
+              <a href="#" target="_blank">
+                <i class='bx bx-play-circle' ></i>
+              </a>
+              <a href="https://github.com/surajsinghgahlod/React-Weather-App" target="_blank">
+                <i class='bx bx-link-external' ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-box">
+          <img src="./assets/images/project-movieStore.png" alt="project5">
+          <div class="projects-layer">
+            <h4>Movie Store</h4>
+            <p>An attractive movie store UI created by using HTML and CSS only</p>
+            <div class="projects-links">
+              <a href="https://surajsinghgahlod.github.io/Movie-Store/" target="_blank">
+                <i class='bx bx-play-circle' ></i>
+              </a>
+              <a href="https://github.com/surajsinghgahlod/Movie-Store" target="_blank">
+                <i class='bx bx-link-external' ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-box">
+          <img src="./assets/images/project-alarmClock.png" alt="project6">
+          <div class="projects-layer">
+            <h4>ALARM CLOCK</h4>
+            <p>A fully functional Alarm clock created with the help of JavaScript, HTML and CSS</p>
+            <div class="projects-links">
+              <a href="https://surajsinghgahlod.github.io/Alarm-Clock/" target="_blank">
+                <i class='bx bx-play-circle' ></i>
+              </a>
+              <a href="https://github.com/surajsinghgahlod/Alarm-Clock" target="_blank">
+                <i class='bx bx-link-external' ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION   -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number">
+          <input type="text" placeholder="Email Subject">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+
+    <!-- FOOTER  -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by <span>Suraj Singh</span> | All Right Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- CUSTOM JS  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- PROGRESS BAR JS  -->
+     <script></script>
+
+    <!-- SCROLL REVEAL JS  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ 
+        reset: true ,
+        distance: '80px',
+        duration: 2000,
+        delay: 200
+      });
+
+      ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+      ScrollReveal().reveal('.home-img, .projects-box, .contact form', { origin: 'bottom' });
+      ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+      ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+    </script>
+
+    <!-- WRITING CONTENT JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      const typed = new Typed('.multiple-text', {
+        strings: ['Frontend Developer', 'React JS Developer', ' UI Engineer'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+      })
+    </script>
+  
+</body>
+</html>
