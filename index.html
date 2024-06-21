@@ -263,10 +263,10 @@
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
 
-      <form action="mailto:surajsinggahlod09@gmail.com" method="POST" enctype="text/plain">
+      <!-- <form action="mailto:surajsinggahlod09@gmail.com" method="POST" enctype="text/plain">
         <div class="input-box">
           <input type="text" name="name" placeholder="Full Name" required>
-          <input type="tel" name="contact" placeholder="Mobile Number">
+          <input type="number" name="contact" placeholder="Mobile Number">
         </div>
         
         <div class="input-box">
@@ -276,6 +276,21 @@
       
         <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
         <input type="submit" value="Send Message" class="btn" onclick="prepareEmailSubject()">
+      </form> -->
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Full Name" required>
+          <input type="number" name="contact" placeholder="Mobile Number">
+        </div>
+        
+        <div class="input-box">
+          <input type="email" name="email" placeholder="Email Address" required>
+          <input type="text" name="subject" id="emailSubject" placeholder="Email Subject">
+        </div>
+      
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn" >
       </form>
 
     </section>
@@ -294,7 +309,7 @@
     <script src="./assets/js/script.js"></script>
 
     <!-- FORM SUBMISSION JS  -->
-    <script>
+    <!-- <script>
       function prepareEmailSubject() {
         var subjectInput = document.getElementById('emailSubject');
         var subject = subjectInput.value;
@@ -304,7 +319,7 @@
         var form = document.querySelector('form');
         form.action = 'mailto:surajsinggahlod09@gmail.com?subject=' + subject;
       }
-    </script>
+    </script> -->
 
     <!-- PROGRESS BAR JS  -->
      <script></script>
