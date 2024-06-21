@@ -296,12 +296,12 @@ span {
 }
 
 .skill-bar .bar .html{
-  width: 90%;
+  width: 95%;
   animation: html 2s;
 }
 
 .skill-bar .bar .css{
-  width: 85%;
+  width: 90%;
   animation: css 2s;
 }
 
@@ -320,12 +320,17 @@ span {
   animation: next 2s;
 }
 
+.skill-bar .bar .mui{
+  width: 85%;
+  animation: mui 2s;
+}
+
 @keyframes html{
   0% {
     width: 0%;
   }
   100% {
-    width: 90%;
+    width: 95%;
   }
 }
 
@@ -334,7 +339,7 @@ span {
     width: 0%;
   }
   100% {
-    width: 85%;
+    width: 90%;
   }
 }
 
@@ -365,6 +370,15 @@ span {
   }
 }
 
+@keyframes mui{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
 .skills-grid{
   margin-left: 30px;
 }
@@ -386,11 +400,12 @@ span {
 .pro-skill{
   font-size: 1.8rem;
   font-weight: 500;
-  margin-bottom: 1.4rem !important;
+  margin-bottom: 1.8rem !important;
 }
 
 .pro-skill i {
   color: var(--main-color);
+  font-size: 28px;
 }
 
 /* PROJECTS SECTION CSS  */
@@ -440,7 +455,7 @@ span {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), #000000);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #000000);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -472,11 +487,16 @@ span {
   height: 5rem;
   background: var(--text-color);
   border-radius: 50%;
+  transition: 0.4s ease-in-out;
 }
 
 .projects-layer a i {
   font-size: 2rem;
   color: var(--second-bg-color);
+}
+
+.projects-layer a:hover{
+  background-color: var(--main-color);
 }
 
 /* CONTACT SECTION CSS  */
